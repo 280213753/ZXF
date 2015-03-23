@@ -1,313 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-
 <plist version="1.0">
-
 <dict>
-
-   <!-- array of downloads.-->
-
-   <key>items</key>
-
-   <array>
-
-       <dict>
-
-           <!-- an array of assets to download -->
-
-           <key>assets</key>
-
-           <array>
-
-               <!-- software-package: the ipa to install.-->
-
-               <dict>
-
-                   <!-- required.the asset kind.-->
-
-                   <key>kind</key>
-
-                   <string>software-package</string>
-
-                   <!-- optional.md5 every n bytes.will restart a chunk if md5 fails.-->
-
-                   <key>md5-size</key>
-
-                   <integer>131072</integer>
-
-                   <!-- optional.array of md5 hashes for each "md5-size" sized chunk.-->
-
-                   <key>md5s</key>
-
-                   <array>
-
-                       <string>b3ee0372849d7bedbb5f242bd0b35cef</string>
-
-                       <string>9962051886e06fa430197b2a851c648f</string>
-
-                       <string>1f5cf077c084bedbbfe1f2b11b5c5a11</string>
-
-                       <string>54ccf09c7ec466aa3d7ffad4ce5dcff1</string>
-
-                       <string>f55d0326d989904dcef4d96a9a71fc21</string>
-
-                       <string>5c526de4a9d0bf3563e18368259e5ce6</string>
-
-                       <string>09a827f825856990efaa55b4db96ef31</string>
-
-                       <string>ace50a22a48de08f23191ea13d51f390</string>
-
-                       <string>c8893ec270185479c22f309636033cd5</string>
-
-                       <string>a507094f32e4d9b56b3e54e96c132786</string>
-
-                       <string>d77672e7b6d2e7052dbda67fff70e1db</string>
-
-                       <string>a10574c691af7d93eebb00278e9dbfd4</string>
-
-                       <string>ccddde5d790214c53c4c8f89e6b86f8f</string>
-
-                       <string>ecc91ca782f2317ae21798750289d703</string>
-
-                       <string>e83fcb7dc756eac8df36c6d35b7f4781</string>
-
-                       <string>8b4856d8b2cf6b0d987c7e304fd93d6d</string>
-
-                       <string>9a260475fd9ef3acfb4ffd8324be4661</string>
-
-                       <string>f91b458daed4cb993b08ce15ec41403e</string>
-
-                       <string>8c8883702ab86060d0d2ff1faa8491ac</string>
-
-                       <string>569fc2ab411b1f5a6bfb6897e5380ad6</string>
-
-                       <string>3de75a2b68693b9391e62c17e4e4a923</string>
-
-                       <string>759c54cacf065620eb7799a1c14bcb7c</string>
-
-                       <string>805e70a93439921313c4405d26b072bf</string>
-
-                       <string>8d245247c7328b700f2f5c495f90809d</string>
-
-                       <string>885101122ba0969dd75b73361a3570b3</string>
-
-                       <string>aeee0eea7d8dbf25c073989c34b63237</string>
-
-                       <string>71a352dfe171be7776025f32eb3843aa</string>
-
-                       <string>6f0f9e92e3ead53905509a697c6f72fb</string>
-
-                       <string>7f29d613d5f45f6fca7db24336e71678</string>
-
-                       <string>03cedf8a79b8828be232165e7376fd17</string>
-
-                       <string>d5d833fe480f4412fc605d1a1c66a204</string>
-
-                       <string>4e6d516fb664bcb9d5722e627b685f30</string>
-
-                       <string>6ba6dd20ac79c7cf2761896961978848</string>
-
-                       <string>a8e776c4bff50e7240afa4b2213fe90e</string>
-
-                       <string>871a8af080d0038a58477aa496d7fb47</string>
-
-                       <string>cd2c512c9a3f23f501ae0afdd76bc218</string>
-
-                       <string>c6a975afd907fbdfa2bb28b60b84b5e4</string>
-
-                       <string>67217e5a9a1ae9a3101dc66bb6e4f0e1</string>
-
-                       <string>7724544c09c58541ab6846b20aaeed7f</string>
-
-                       <string>a773d41ac90281d920e500b6b7e3bc34</string>
-
-                       <string>715310b7ac47642661b95c4bf3ea0526</string>
-
-                       <string>9b4bddc65b482bfd4040a7ebf49dd650</string>
-
-                       <string>68ef1e26e487d92ca6cccbf91fc107ac</string>
-
-                       <string>cf406002ca3c9fd064219951f7fc7fd3</string>
-
-                       <string>04c64143c5195812edec77ee253e64ed</string>
-
-                       <string>7a9538fa0bef751738385e0442f0b43d</string>
-
-                       <string>4a8a0839d8ed980ea9d61669c4d2a476</string>
-
-                       <string>f9caa36fb2c974f6e5865c27902db52a</string>
-
-                       <string>c191a4d90950af9ceaebe9300ee01102</string>
-
-                       <string>b7ade928b50fbd5b9465a2e98112ea51</string>
-
-                       <string>b691d22da7d7b34439a5859072f56aad</string>
-
-                       <string>3de01a8d169a1696fff6ff94a6b763c4</string>
-
-                       <string>381b24786e046655a610a41ac360bcc7</string>
-
-                       <string>06a48ef4d9086d39f8240ec03842eb98</string>
-
-                       <string>21936b0c5f18327e3cbe412ef14632df</string>
-
-                       <string>773941f3f58159cbb3879f2eceed205e</string>
-
-                       <string>d47b864ec511de0c3b56c04b88d6bd0b</string>
-
-                       <string>4de585be432e6767797ffd82fbcc6c77</string>
-
-                       <string>da559fd8c50830b9cd31181c8b4fa651</string>
-
-                       <string>5ff408ac95e0bd1a9faf2f1d85333d1f</string>
-
-                       <string>1411128708764a61ef0fcbfe91b1996d</string>
-
-                       <string>261d08d8d8f8f5c667226c152962a5b0</string>
-
-                       <string>a26c9fb85f367333ee0ba15a69131c41</string>
-
-                       <string>1f276153e9adafbb8f5502b0ebda1229</string>
-
-                       <string>968408f4aabe6526d88c7e8c6868f0e4</string>
-
-                       <string>52a965a1eff837b9e1f290e0a9d53c32</string>
-
-                       <string>d0abc1cbbfc952cd5fc7c3b8d1fdf144</string>
-
-                       <string>aa4c99d931b90076fcc19ac999cf9620</string>
-
-                       <string>35bd263e09efd5bbc66165d6bd1d37d0</string>
-
-                       <string>62af800e3d214d9e8a2ee1c6733cb308</string>
-
-                       <string>6c022eaf8d92c04bab61ac646aac3ab0</string>
-
-                       <string>9dd2caf9bce8dcc7c886380a6838b5b0</string>
-
-                       <string>41a87d3e0f73126fbde78ee55bddca00</string>
-
-                       <string>ffcb1b8194ea4c2ffae8a8e0855e8573</string>
-
-                       <string>eefd73572ca9da201a870ea978533b87</string>
-
-                       <string>a1228d44ab8e8a56bc35208c4207765c</string>
-
-                       <string>66e064ce40fb50c3e71b8ff1c3174b33</string>
-
-                       <string>54939c39dda5e078be7d7fc9712e1dea</string>
-
-                       <string>0709edfb4242732b2da3780ef80e3d36</string>
-
-                       <string>1d18742bb10d4088855dbd0d96fa3743</string>
-
-                       <string>f592a282244790044ca1a3f027f3f70b</string>
-
-                       <string>6960180e5f9789572f618504d9f61ea0</string>
-
-                       <string>e68fa54b6d0096ace9c443d5d9a414a3</string>
-
-                       <string>b993158d12191a23ad95ed6aad67658d</string>
-
-                       <string>0d720994acd9e007cd79fe5250d38c8f</string>
-
-                       <string>791577f20c83d5b2fb9edf4391138059</string>
-
-                       <string>de282f93d9e4b1b03a670c9f0dc049fd</string>
-
-                       <string>523e5ee7a65e4911cbeee64d23f7303e</string>
-
-                   </array>
-
-                   <!-- required.the URL of the file to download.-->
-
-                   <key>url</key>
-
-                   <string>http://service.5ipos.com/pay/apk/ZXF.ipa</string>
-
-               </dict>
-
-               <!-- display-image: the icon to display during download .-->
-
-               <dict>
-
-                   <key>kind</key>
-
-                   <string>display-image</string>
-
-                   <!-- optional.indicates if icon needs shine effect applied.-->
-
-                   <key>needs-shine</key>
-
-                   <true/>
-
-                   <key>url</key>
-
-                   <string>http://service.5ipos.com/pay/apk/ZXF.png</string>
-
-               </dict>
-
-               <!-- full-size-image: the large 512x512 icon used by iTunes.-->
-
-               <dict>
-
-                   <key>kind</key>
-
-                   <string>full-size-image</string>
-
-                   <!-- optional.one md5 hash for the entire file.-->
-
-                   <key>md5</key>
-
-                   <string>09060cd7cea27c1dcfd19074935fa761</string>
-
-                   <key>needs-shine</key>
-
-                   <true/>
-
-                   <key>url</key><string>http://service.5ipos.com/pay/apk/ZXF.png</string>
-
-               </dict>
-
-           </array><key>metadata</key>
-
-           <dict>
-
-               <!-- required -->
-
-               <key>bundle-identifier</key>
-
-               <string>com.example.zs</string>
-
-               <!-- optional (software only) -->
-
-               <key>bundle-version</key>
-
-               <string>1.1.1</string>
-
-               <!-- required.the download kind.-->
-
-               <key>kind</key>
-
-               <string>software</string>
-
-               <!-- optional. displayed during download; typically company name -->
-
-               <key>subtitle</key>
-
-               <string></string>
-
-               <!-- required.the title to display during the download.-->
-
-               <key>title</key>
-
-               <string>掌心付</string>
-
-           </dict>
-
-       </dict>
-
-   </array>
-
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>http://service.5ipos.com/pay/apk/ZXF.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>http://service.5ipos.com/pay/apk/ZXF.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>http://service.5ipos.com/pay/apk/ZXF.png</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.example.zs</string>
+				<key>bundle-version</key>
+				<string>1.1.1</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>掌心付</string>
+			</dict>
+		</dict>
+	</array>
 </dict>
-
 </plist>
